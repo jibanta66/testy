@@ -1,0 +1,76 @@
+
+
+h2 {
+  color: rgb(16, 16, 16); /* Change color as needed */
+  font-size: 24px; /* Adjust font size as needed */
+  font-weight: bold; /* Adjust font weight as needed */
+  text-align: left; /* Align text to the left */
+  /* Add any other styles you desire */
+}
+
+.loginfirst {
+  margin-top: 80px;
+  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 50%;
+  /* Using viewport height to fill the entire screen */
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.loginsecond {
+  text-align: center;
+  margin-top: 10px;
+}
+.logthird
+{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  
+}
+.logthird p
+{
+  font-size: 20px;
+  font-weight: 200;
+}
+
+
+
+  .loginfirst h1{
+    color: rgb(0, 0, 0);
+  }
+  .loginend {
+    text-align: center;
+    margin: 20px 20px;
+     /* Add margin as needed */
+  }
+  
+  /* Style for the input fields */
+  .loginend label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .loginend input {
+    padding: 8px;
+    margin-bottom: 10px;
+  }
+  
+  /* Style for the buttons */
+.loginend button {
+  padding: 10px 15px;
+  background-color: #3651a3;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  align-self: flex-end; /* Align button to the right */
+}
+  .loginend button:hover {
+    background-color: #1a336e;
+  }
+  

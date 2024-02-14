@@ -1,0 +1,76 @@
+/* sidebar.css */
+
+.sidebar {
+  width: 100%;
+  height: 70px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: linear-gradient(to right, #00093c, #00093c); /* Set the alpha value to 0.5 for 50% transparency */
+  color: #070707;
+  display: flex;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+  justify-content: end;
+
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 30px;
+  
+  display: flex;
+  align-items: center;
+  justify-content: flex-end; /* Align items to the right */
+}
+
+.sidebar li {
+  
+  margin-left: 20px; /* Adjust the spacing between items as needed */
+}
+
+.sidebar a {
+  font-size:20px;
+  font-weight: 500;
+  text-decoration: none;
+ list-style: none;
+  color: #ffffff;
+  opacity: 0.9;
+}
+
+.sidebar a:hover {
+  opacity: 1;
+  color: rgb(157, 210, 242);
+}
+
+.right-align {
+  margin-right: auto;
+}
+/* sidebar.css */
+.logo { 
+  width: 70px;
+  height: 60px;
+  margin: 0 0 5px 15px;
+  position: relative;
+  left: 1px;
+  top: 0px;
+  background-color: transparent; /* Set background color to transparent */
+}
+
+
+nav
+{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px 0;
+}
+
+.logode
+{
+  float: left;
+  margin-left: 100px;
+  color: #ffffff;
+  font-size: 30px;
+}

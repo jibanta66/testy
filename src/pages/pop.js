@@ -16,7 +16,7 @@ const Popup = ({ teacherName,address,phone,teacherId, email,onClose }) => {
     // Push data to the database
     push(registerRef, {
       StudentId :studentId,
-      teacherId: teacherId,
+      teacherIds: teacherId,
       Name:  teacherName,
       Contact:phone,
       Location: address,

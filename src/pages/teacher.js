@@ -301,6 +301,7 @@ class Teachers extends Component {
                     <option value="geography">Geography</option>
                     <option value="economics">Economics</option>
                     <option value="politicalScience">Political Science</option>
+                    <option value="assamese">Assamese</option>
                   </select>
                 </div>
               </div>

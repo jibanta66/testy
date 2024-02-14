@@ -272,13 +272,14 @@ class Students extends Component {
                 <label htmlFor="fileInput" className="custom-file-input">
                   Choose File
                 </label>
-                <input
+                <div style={{height:"50px", width:"60px"}}> <input
                   type="file"
                   id="fileInput"
                   accept=".jpg, .jpeg, .png"
                   onChange={this.handleImageChange}
                   required
                 />
+                </div>
                 {image && (
                   <img src={image} alt="Preview" className="preview-image" />
                 )}

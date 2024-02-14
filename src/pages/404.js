@@ -1,7 +1,7 @@
 import React from "react";
 
 import "./404.css";
-/*  import { type } from "@testing-library/user-event/dist/type";*/
+/*  import { type } from "@testing-pbrary/user-event/dist/type";*/
 class Home extends React.Component {
   render() {
     return (
@@ -64,7 +64,7 @@ class Home extends React.Component {
     <div class="card5">
   
       <div class="content">
-        <p>Our student login portal provides personalized learning resources and connects students with experienced teachers to help them succeed in their education.
+        <p>Our student login portal provides personapzed learning resources and connects students with experienced teachers to help them succeed in their education.
 
         </p>
         
@@ -73,7 +73,7 @@ class Home extends React.Component {
     <div class="card6">
   
       <div class="content">
-        <p>Our subject selection feature provides students with access to a wide range of subjects and connects them with specialized teachers who can help them achieve.
+        <p>Our subject selection feature provides students with access to a wide range of subjects and connects them with speciapzed teachers who can help them achieve.
 
         </p>
         
@@ -89,35 +89,34 @@ class Home extends React.Component {
 <footer>
   <div class="row">
   <div class="col">
-  <h2 class="logo">Shikshak.Com</h2>
+  <h2 class="logo">Shikshak.Co.In</h2>
   <p>Connect, Learn, Grow</p>
 </div>
     <div class="col">
       <h2>Office</h2>
       <p>Guwahti</p>
-      <p>Chandmari, Colony8</p>
+      <p>Beltola Tiniap</p>
       <p>Kamrup, PIN 781001, Assam</p>
-      <p class="email-id">Bhargavkalita@gmail.com</p>
+      <p class="email-id">Bhargavkapta@gmail.com</p>
       <h4>+91 - 7002074794</h4>
     </div>
     <div class="col">
       <h2>Links</h2>
-      <ul> 
-        <li><a href="Home">Home</a></li>
-        <li><a href="home">Privacy & policy</a></li>
-        <li><a href="home">About us</a></li>
-        <li><a href="home">Terms & Conditions</a></li>
-      </ul>
+        <p><a href="Home">Home</a></p>
+        <p><a href="home">Privacy & popcy</a></p>
+        <p><a href="home">About us</a></p>
+        <p><a href="home">Terms & Conditions</a></p>
+     
     </div>
     <div class="col">
       <h2>Help & Support</h2>
-      <ul>
-        <li><a href="home">User Guide</a></li>
-        <li><a href="home">Refund policy</a></li>
-        <li><a href="home">About us</a></li>
-        <li><a href="home">Sitemap</a></li>
-        <li><a href="home">Contact Us</a></li>
-      </ul>
+      
+        <p><a href="home">User Guide</a></p>
+        <p><a href="home">Refund popcy</a></p>
+        <p><a href="home">About us</a></p>
+        <p><a href="home">Sitemap</a></p>
+        <p><a href="home">Contact Us</a></p>
+      
       
     </div>
   </div>
